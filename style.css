@@ -1,0 +1,96 @@
+h1{
+	color: rgb(231, 62, 62);
+	text-align: center;
+	font: 20px Comic Sans MS, sans-serif;
+	padding: 50px 0px 5px 0px;
+	font-size: 45px;
+}
+.p {
+    color: rgb(221, 224, 20);
+    text-align: center;
+    font: 20px Comic Sans MS, sans-serif;
+    padding : 30px 100px 1px 50px;
+}
+body {
+  background-color: rgb(28, 57, 153);
+  background-size: cover;
+  background-image:url("images.jpg");
+}
+input[type=text]{
+    border:2px solid #177277;
+    padding: 10px 20px;
+    width:90%;
+    margin:8px 0;
+}
+button{
+    padding: 5px 0px;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    font-family: helvetica;
+}
+textarea{
+     border:2px solid #8d16a5;
+}
+
+
+a, a:visited, a:link, a:active {
+    color:rgba(99, 40, 40, 0.774);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: rgb(128, 87, 87);
+  }
+
+ul {
+    padding: 0 0 0 50px;
+  }
+  ul li {
+    margin: 0 0 5px 0;
+  }
+  
+.nav {
+    padding-left: 0;
+    margin: 5px 0 20px 0;
+    text-align: center;
+  }  
+.nav li {
+    display: inline;
+    padding-right: 10px;
+  }
+.nav li a{
+	font-size: 25px;
+	font: 20px Comic Sans MS, sans-serif;
+}
+  
+.main-content {
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid rgb(110, 7, 7);
+    border-radius: 2em;
+    margin: 30px auto 0 auto;
+    background: rgb(26, 131, 145) top left repeat; 
+  }
+  
+.pts {
+  list-style-type: none;
+  padding: 0;
+}
+.pts li {
+  border: 1px solid #21d19c;
+  background-color: #ffffff;
+  height: 90px;
+}
+.pts h3 {
+  border-bottom: 0;
+  margin-bottom: 5px;
+}
+.pts a {
+  color: #731580;
+  text-decoration: none;
+}
+.pts img {
+  float: left;
+  padding-right: 11px;
+}
